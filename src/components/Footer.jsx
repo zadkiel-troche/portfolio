@@ -30,6 +30,13 @@ const Footer = () => {
                     >
                         <FaTwitter className="text-2xl" />
                     </a>
+                    <a
+                        href="/politicas-privacidad"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Política de Privacidad
+                    </a>
                 </div>
             </div>
         </footer>
