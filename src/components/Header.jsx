@@ -7,7 +7,9 @@ const Header = () => {
     return (
         <header className="bg-gray-800 px-4 py-4 text-white md:px-72">
             <div className="container mx-auto flex items-center justify-between">
-                <h1 className="text-xl font-bold">Mi Portfolio</h1>
+                <a href="/">
+                    <h1 className="text-xl font-bold">Mi Portfolio</h1>
+                </a>
                 <nav className="hidden md:block">
                     <ul className="flex space-x-4">
                         <li>
