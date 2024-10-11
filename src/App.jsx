@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' // Asegúrate de importar BrowserRouter
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -7,11 +7,9 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Politicas from './components/Politicas'
 
-export default function App() {
+function App() {
     return (
         <Router>
-            {' '}
-            {/* Asegúrate de envolver todo dentro de BrowserRouter */}
             <Routes>
                 <Route
                     path="/"
@@ -31,3 +29,5 @@ export default function App() {
         </Router>
     )
 }
+
+export default App
